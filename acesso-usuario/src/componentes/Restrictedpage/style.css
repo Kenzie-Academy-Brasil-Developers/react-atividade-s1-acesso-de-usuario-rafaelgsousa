@@ -1,0 +1,23 @@
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    color:rgb(7, 7, 7);
+    border:none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px 0px #3D3D3D;
+    font-weight: bold;
+}
+
+button:active {
+    box-shadow: 0px 0px 1px 0px #3D3D3D;
+    transform: translateY(3px);
+}
+
+button:hover{
+    color: rgb(121, 118, 118);
+    background-color: #812F33;
+    border: none;
+    box-sizing: border-box;
+}
